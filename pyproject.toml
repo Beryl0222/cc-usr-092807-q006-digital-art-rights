@@ -1,0 +1,8 @@
+[project]
+name = "media-ops"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "文化内容运营平台"
+
+[project.scripts]
+media-ops = "media_ops.cli:main"
